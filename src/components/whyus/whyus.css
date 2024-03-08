@@ -1,0 +1,61 @@
+.why__section {
+    background: var(--white);
+    /* margin-top: 6rem; */
+}
+
+.why__container {
+    padding: 10rem 0;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.whyus__text p {
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+    text-align: justify;
+    color: var(--dark);
+}
+
+.whyus__items {
+    display: flex;
+    gap: 2rem;
+}
+
+.whyus__item h1 {
+    color: #23A036;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.whyus__item h6 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.whyus__img {
+    position: relative;
+    /* border-radius: 5px; */
+    overflow: hidden;
+}
+
+.whyus__img img {
+    border-radius: 5px;
+}
+
+
+
+
+
+
+/*=========================== Media query for why us section ================================== */
+@media screen and (max-width: 900px) {
+    .why__container {
+        flex-direction: column;
+    }
+
+    .whyus__img img {
+        width: 100%;
+    }
+}
