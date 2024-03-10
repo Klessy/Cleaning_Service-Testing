@@ -46,7 +46,7 @@
 }
 
 .card:hover {
-    background: var(--semi-gray);
+    /* background: var(--semi-gray); */
     border-color: var(--white);
     transform: translateY(-0.5rem);
 }

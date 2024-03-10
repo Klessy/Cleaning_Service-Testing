@@ -66,7 +66,7 @@ const dataSlider = [
     {
         id: 1,
         title: "Best Quality Solution In Cleaning",
-        desc: "Our Services: Residential Cleaning, Commercial Cleaning, Deep Cleaning, Move-In/Move-Out Cleaning.",
+        desc: "Our Services: Specialized Cleaning, Chimney Cleaning, Window Cleaning.",
         img: Carousel_1,
         btn: "Get a Quote"
     },
