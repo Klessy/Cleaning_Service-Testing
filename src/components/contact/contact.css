@@ -96,13 +96,14 @@
     padding-right: 50px;
     padding-bottom: 50px;
     padding-left: 45px;
-    background: var(--white);
+    background: #fff;
     position: relative;
     /* width: 100%; */
 }
 
-.second-col h1 {
+.second-col h2 {
     margin-bottom: 3.5rem;
+    color: #000;
 }
 
 .underline_form-title {
@@ -118,7 +119,7 @@
     padding: 12px 20px;
     font-size: 14px;
     height: 51px;
-    border: 1px solid var(--gray);
+    border: 1px solid #e4e4e4;
     outline: 2px solid transparent;
     outline-offset: 2px;
 
@@ -129,7 +130,7 @@
     padding: 12px 20px;
     font-size: 14px;
     height: 140px;
-    border: 1px solid var(--gray);
+    border: 1px solid #e4e4e4;
     outline: 2px solid transparent;
     outline-offset: 2px;
     margin-bottom: 2rem;

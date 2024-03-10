@@ -31,13 +31,13 @@ const Nav = ({theme, toggleTheme}) => {
         <div className="flex__container-topbar">
           <div className="item_one">
             <div className="left">
-              <a className='text-body' href="tel: +2348053929587">
+              <a className='text-body' href="tel: +447823461285">
                 <i className="fa fa-phone-alt text-primary me-2"></i>
-                +234 80 539 295 87
+                +447 823 461 285
               </a>
-              <a className='text-body' href="mailto:info@example.com">
+              <a className='text-body' href="mailto:1@assetsupportservices.co.uk">
                 <i className="fa fa-envelope-open text-primary me-2"></i>
-                info@example.com
+                1@assetsupportservices.co.uk
               </a>
             </div>
           </div>

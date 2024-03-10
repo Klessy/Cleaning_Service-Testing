@@ -79,7 +79,7 @@ const Contact = () => {
               <h3>Information</h3>
               <span className="underline"></span>
               <div>
-                <p>+800-123-4567</p>
+                <p>+447 823 461 285</p>
                 <p>&nbsp; gymat@gymail.com</p>
               </div>
             </div>

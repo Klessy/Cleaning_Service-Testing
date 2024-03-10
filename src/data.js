@@ -66,21 +66,21 @@ const dataSlider = [
     {
         id: 1,
         title: "Best Quality Solution In Cleaning",
-        desc: "At Somakes Association LTD, we believe that architecture is more than just buildings.",
+        desc: "Our Services: Residential Cleaning, Commercial Cleaning, Deep Cleaning, Move-In/Move-Out Cleaning.",
         img: Carousel_1,
         btn: "Get a Quote"
     },
     {
         id: 2,
         title: "Highly Professional Cleaning Services",
-        desc: "We do Electrical / Mechanical drawings, LandScaping Building Project In all ramification",
+        desc: "With our meticulous attention to detail and commitment to customer satisfaction, we guarantee a cleaning experience like no other.",
         img: Carousel_2,
         btn: "Get a Quote"
     },
     {
         id: 3,
         title: "Experienced & Expert Cleaners",
-        desc: "Land Acquisition, Properties managers. Learn More About Our Services",
+        desc: "We can be your trusted partner in creating spotless environments for homes and businesses",
         img: Carousel_3,
         btn: "Get a Quote"
     }
@@ -90,25 +90,25 @@ const serviceSlider = [
     {
         id: 1,
         icon: <i className="fa fa-2x fa-spa"></i>,
-        title: "Home cleaning",
+        title: "Window cleaning",
         img: Blog_1
     },
     {
         id: 2,
         icon: <i className="fa fa-2x fa-hotel"></i>,
-        title: "Home cleaning",
+        title: "Specialize cleaning",
         img: Blog_2
     },
     {
         id: 3,
         icon: <i className="fa fa-2x fa-city"></i>,
-        title: "Home cleaning",
+        title: "Chimney cleaning",
         img: Blog_3
     },
     {
         id: 4,
         icon: <i className="fa fa-2x fa-hotel"></i>,
-        title: "Home cleaning",
+        title: "Confined space cleaning",
         img: Blog_1
     },
 ]
@@ -143,21 +143,21 @@ const gallery = [
 const Testimonials = [
     {
        quote: <RiDoubleQuotesR />,
-       desc: "We rented a car from this website and had an amazing experience! The booking was easy and the rental rates were very affordable.",
+       desc: "Sparkle Cleaners did an amazing job cleaning my home! They were thorough, professional, and left everything spotless. Highly recommend!",
         testImg: Testimonial_1,
         name: "Parry Hotter",
         location: "Lagos"
     },
     {
        quote: <RiDoubleQuotesR />,
-       desc: "We rented a car from this website and had an amazing experience! The booking was easy and the rental rates were very affordable.",
+       desc: "Our office has never looked cleaner since hiring Sparkle Cleaners. Their attention to detail is unmatched!",
         testImg: Testimonial_2,
         name: "Parry Hotter",
         location: "Lagos"
     },
     {
        quote: <RiDoubleQuotesR />,
-       desc: "We rented a car from this website and had an amazing experience! The booking was easy and the rental rates were very affordable.",
+       desc: "As a busy professional, I don't have the time or energy to clean my apartment regularly. That's why I'm so grateful for Sparkle Cleaners. They take care of everything, and I always come home to a sparkling clean space. Thank you for making my life easier!",
         testImg: Testimonial_3,
         name: "Parry Hotter",
         location: "Lagos"
@@ -171,14 +171,14 @@ const Testimonials = [
     },
     {
        quote: <RiDoubleQuotesR />,
-       desc: "We rented a car from this website and had an amazing experience! The booking was easy and the rental rates were very affordable.",
+       desc: "I was hesitant to hire a cleaning service at first, but Sparkle Cleaners exceeded all my expectations. They were thorough, efficient, and respectful of my home. I'll definitely be using their services again in the future.",
         testImg: Testimonial_5,
         name: "Parry Hotter",
         location: "Lagos"
     },
     {
        quote: <RiDoubleQuotesR />,
-       desc: "We rented a car from this website and had an amazing experience! The booking was easy and the rental rates were very affordable.",
+       desc: "I hired Sparkle Cleaners for a deep clean before hosting a party at my house, and I'm so glad I did. They transformed my home into a showroom-worthy space in just a few hours. My guests were impressed, and I couldn't have pulled it off without them. Thank you, Sparkle Cleaners",
         testImg: Testimonial_6,
         name: "Parry Hotter",
         location: "Lagos"
@@ -188,22 +188,22 @@ const Testimonials = [
 const faqs = [
     {
       id: 1,
-      question: "What do you need to start working on my project?",
+      question: "How often should I schedule a cleaning service?",
       answer: "It mostly depends on the type of project. But in general, you need a fair idea of what you want, then we can take it from there."
     },
     {
       id: 2,
-      question: "How long will my project take to complete?",
+      question: "What cleaning products do you use?",
       answer: "This depends on the complexity of the project, your available, and your payment. Once you have this sorted out, I will give you a completion date."
     },
     {
       id: 5,
-      question: "Is hosting and domain registration inclusive in your pricing?",
+      question: "Do I need to provide any cleaning equipment?",
       answer: "No! Hosting and domain is taken care of seperately. You can pay for it or take care of it on your own if you know how to."
     },
     {
       id: 4,
-      question: "How much do you charge for an average website or app?",
+      question: "How much do you charge for Your service?",
       answer: "Once again, this depends. But my prices are affordable so you're good."
     },
     {
@@ -213,7 +213,7 @@ const faqs = [
     },
     {
       id: 6,
-      question: "What if the project doesn't turn out good?",
+      question: "What if I am not satisfied with your service?",
       answer: "You will be a part of the process from the start. You will know how the whole project is going until the end. And I will make sure to give you the best."
     }
   ]

@@ -25,6 +25,31 @@
   --radius-5: 3rem;
 }
 
+.dark-theme {
+  --light: #1b1b1b;
+  --primary: #df6b13;
+  --white: #1b1b1b;
+  --dark-gray: #fff;
+  --light-gray: #1b1b1b;
+  --semi-light: #f8f8f8;
+  --semi-gray: #fff;
+  --dark: #fff;
+  --black: #fff;
+  --gray: #df6b13;
+}
+
+.light-theme {
+  --primary: #df6b13;
+  --light: #F8F8F8;
+  --white: #fff;
+  --dark: #252525;
+  --gray: #e4e4e4;
+  --light-gray: #f8f8f8;
+  --dark-gray: #646464;
+  --semi-gray: #706f7b;
+  --semi-light: #f8f8f8;
+}
+
 *{
   box-sizing: border-box;
   margin: 0;
@@ -69,6 +94,11 @@ a {
   font-weight: 700;
   font-size: 4.2rem;
   color: var(--black);
+}
+
+.app {
+  position: relative;
+  background-color: var(--white);
 }
 
 .activeSlide {

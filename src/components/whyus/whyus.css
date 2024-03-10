@@ -1,6 +1,5 @@
 .why__section {
     background: var(--white);
-    /* margin-top: 6rem; */
 }
 
 .why__container {
@@ -24,7 +23,7 @@
 
 .whyus__item h1 {
     color: #23A036;
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 0.5rem;
     font-weight: 700;
 }
@@ -32,6 +31,7 @@
 .whyus__item h6 {
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
+    color: var(--dark);
 }
 
 .whyus__img {

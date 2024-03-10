@@ -140,6 +140,7 @@
 .sticky-top_remove {
     position: fixed;
     top: 0;
+    transition: var(--transition);
 }
 
 .navbar__links {

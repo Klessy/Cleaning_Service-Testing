@@ -9,7 +9,7 @@
     margin: 0 auto;
     justify-content: center;
     gap: 3rem;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .about__our-services {
@@ -18,14 +18,14 @@
 }
 
 .about__our-services h2 {
-    color: var(--white);
+    color: #fff;
 }
 
 .about__our-services p {
     font-size: 2rem;
     margin-bottom: 2.5rem;
     text-align: justify;
-    color: var(--white);
+    color: #fff;
 }
 
 
@@ -81,7 +81,7 @@
   }
 
   .service-carousel img {
-    vertical-align: middle;
+   object-fit: cover;
     width: 100%;
     border-style: none;
     /* overflow: clip; */
@@ -126,12 +126,17 @@
 /* ===================== Media Query for service section ================================== */
 @media screen and (max-width: 900px) {
     .services__container {
+        display: block;
         flex-direction: column;
     }
 
     .about__our-services {
         flex: 1;
         max-width: 100%;
+    }
+
+    .about__our-services .learn__more {
+        margin-bottom: 3rem;
     }
 
     
