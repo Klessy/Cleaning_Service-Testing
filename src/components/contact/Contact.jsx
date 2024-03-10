@@ -1,10 +1,10 @@
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 
 // import AOS from "aos";
 // import "aos/dist/aos.css";
 
 import { useForm } from "react-hook-form";
-import { useRef } from 'react';
+// import { useRef } from 'react';
  
 
 import './contact.css';
