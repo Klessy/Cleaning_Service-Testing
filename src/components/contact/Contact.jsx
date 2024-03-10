@@ -14,7 +14,7 @@ const Contact = () => {
   const form = useForm({
     date: new Date(),
   });
-  const { register, control, handleSubmit, formState, reset } = form;
+  const { register, handleSubmit, formState, reset } = form;
   const { errors, isSubmitSuccessful } = formState;
 
   //Error / Sucess Messages
