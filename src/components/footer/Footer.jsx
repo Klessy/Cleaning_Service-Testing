@@ -55,6 +55,7 @@ const Footer = () => {
 
           <span className="footer__underline"></span>
 
+          //eslint-disable-next-line
           <a href='#' className="footer__links font__main">
            Home
           </a>

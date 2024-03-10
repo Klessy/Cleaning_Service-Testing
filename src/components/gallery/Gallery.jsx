@@ -15,7 +15,7 @@ const Gallery = () => {
               <img src={img} alt="Welcome to our Gallery" />
               {/* <p className = "gallery__image-icon">My name</p> */}
               <div className="">
-                <a href=""><BsInstagram className = "gallery__image-icon" /></a>
+                <a href="https://github.com/klessy"><BsInstagram className = "gallery__image-icon" /></a>
               </div>
             </div>
           ))

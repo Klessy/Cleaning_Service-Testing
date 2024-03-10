@@ -24,7 +24,7 @@ const Services = () => {
           <h5>OUR SERVICES</h5>
           <h2>Awesome Cleaning Services For You</h2>
           <p>Invidunt lorem justo clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos, ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum</p>
-          <a href=""><button className="learn__more">More Services</button></a>
+          <a href="https://github.com/klessy"><button className="learn__more">More Services</button></a>
         </div>
         <Swiper
              slidesPerView={1}
