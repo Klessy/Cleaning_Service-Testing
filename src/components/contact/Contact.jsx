@@ -79,8 +79,15 @@ const Contact = () => {
               <h3>Information</h3>
               <span className="underline"></span>
               <div>
-                <p>+447 823 461 285</p>
-                <p>&nbsp; gymat@gymail.com</p>
+              <a className='text-body' href="tel: +447823461285">
+                <i className="fa fa-phone-alt text-primary me-2"></i>
+                +447 823 461 285
+              </a>
+              <br />
+              <a className='text-body' href="mailto:1@assetsupportservices.co.uk">
+                <i className="fa fa-envelope-open text-primary me-2"></i>
+                1@assetsupportservices.co.uk
+              </a>
               </div>
             </div>
             {/*  */}
