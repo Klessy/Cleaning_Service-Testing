@@ -15,7 +15,6 @@
 
 .gallery__img {
     position: relative;
-    height: 317.954px;
     overflow: hidden;
     /* z-index: 9; */
 }
@@ -60,8 +59,8 @@
     }  
 }
 
-@media screen and (min-width: 1024px) {
+/* @media screen and (min-width: 1024px) {
     .gallery__img {
         height: 250.954px;
     }
-}
+} */

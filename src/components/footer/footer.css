@@ -29,7 +29,8 @@
 .footer__socials{
     display: flex;
     gap: 1.75rem;
-    color: var(--dark-gray);
+    color: var(--dark-green);
+    cursor: pointer;
 }
 
 .footer__socials-icon {
@@ -42,7 +43,7 @@
 
 .footer__socials-icon:hover {
     background-color: var(--primary);
-    color: #fff;
+    /* color: var(--dark-green); */
 }
 
 .footer__socials :nth-child(2){
@@ -53,7 +54,7 @@
 
 .footer__socials :nth-child(2):hover {
     background-color: var(--primary);
-    color: #fff;
+    /* color: var(--dark-green); */
 }
 
 .footer__socials :nth-child(4){
@@ -64,7 +65,7 @@
 
 .footer__socials :nth-child(4):hover {
     background-color: var(--primary);
-    color: #fff;
+    /* color: var(--dark-green); */
 }
 
 .policy {

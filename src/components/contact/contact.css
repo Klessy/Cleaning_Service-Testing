@@ -137,7 +137,7 @@
 }
 
 .form-btn {
-    color: var(--white);
+    color: var(--dark-green);
     background-color: var(--primary);
     width: fit-content;
     padding: 15px 30px;

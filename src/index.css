@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Poppins:wght@300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
 
 :root {
-  --primary: #df6b13;
+  --primary: #FCDC2F;
+  /* --logo: #FCDC2F; */
   /* --primary: #00539C; */
   --light: #FFD662;
   --white: #fff;
@@ -11,6 +12,7 @@
   --light-gray: #f8f8f8;
   --dark-gray: #646464;
   --black: #000;
+  --dark-green: #2C6054;
 
   --transition: all 300ms ease;
 
@@ -27,7 +29,8 @@
 
 .dark-theme {
   --light: #1b1b1b;
-  --primary: #df6b13;
+  --primary: #FCDC2F;
+  /* --primary: #df6b13; */
   --white: #1b1b1b;
   --dark-gray: #fff;
   --light-gray: #1b1b1b;
@@ -35,11 +38,12 @@
   --semi-gray: #fff;
   --dark: #fff;
   --black: #fff;
-  --gray: #df6b13;
+  --gray: #FCDC2F;
 }
 
 .light-theme {
-  --primary: #df6b13;
+  --primary: #FCDC2F;
+  /* --primary: #df6b13; */
   --light: #F8F8F8;
   --white: #fff;
   --dark: #252525;
@@ -56,6 +60,7 @@
   padding: 0;
   outline: none;
   border: 0;
+  resize: none;
 }
 
 html {

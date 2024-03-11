@@ -10,9 +10,10 @@ import Carousel_1 from "./assets/carousel-1.jpg";
 import Carousel_2 from "./assets/carousel-2.jpg";
 import Carousel_3 from "./assets/carousel-3.jpg";
 
-import Blog_1 from "./assets/blog-1.jpg";
 import Blog_2 from "./assets/blog-2.jpg";
-import Blog_3 from "./assets/blog-3.jpg";
+import Window_1 from "./assets/window_cl2.jpg";
+import Furnace_1 from "./assets/furnance_cl5.jpg";
+import Confirned_1 from "./assets/confined_cl.jpg";
 
 //Gallery Images
 import Gallery_1 from "./assets/portfolio-1.jpg";
@@ -21,6 +22,7 @@ import Gallery_3 from "./assets/portfolio-3.jpg";
 import Gallery_4 from "./assets/portfolio-4.jpg";
 import Gallery_5 from "./assets/portfolio-5.jpg";
 import Gallery_6 from "./assets/portfolio-6.jpg";
+
 
 //Testinonial images
 import Testimonial_1 from "./assets/testimonial-1.jpg";
@@ -91,7 +93,7 @@ const serviceSlider = [
         id: 1,
         icon: <i className="fa fa-2x fa-spa"></i>,
         title: "Window cleaning",
-        img: Blog_1
+        img: Window_1
     },
     {
         id: 2,
@@ -103,13 +105,13 @@ const serviceSlider = [
         id: 3,
         icon: <i className="fa fa-2x fa-city"></i>,
         title: "Chimney cleaning",
-        img: Blog_3
+        img: Furnace_1
     },
     {
         id: 4,
         icon: <i className="fa fa-2x fa-hotel"></i>,
         title: "Confined space cleaning",
-        img: Blog_1
+        img: Confirned_1
     },
 ]
 

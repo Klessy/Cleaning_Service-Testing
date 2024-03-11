@@ -13,6 +13,9 @@
     font-size: 2rem;
     margin-bottom: 2.5rem;
     text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    color: var(--black);
     color: var(--dark);
 }
 

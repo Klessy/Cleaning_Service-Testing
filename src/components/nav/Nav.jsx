@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Logo from "../../assets/icons/main_logo.png"
+import Logo from "../../assets/icons/qcleaning_logo.png";
 import MoonIcon  from "../../assets/icons/sunny-filled-loop-to-moon-filled-loop-transition.svg";
 import SunIcon from "../../assets/icons/moon-filled-to-sunny-filled-loop-transition.svg";
 import { navlinks  } from '../../data';
