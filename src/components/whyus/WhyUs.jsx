@@ -32,7 +32,7 @@ const WhyUs = () => {
             </div>
             <div className="whyus__img-con">
                 <div className="whyus__img">
-                    <img src={Feature} alt="Featured Service"/>
+                    <img src={Feature} alt="Featured Best Cleaning Service"/>
                 </div>
             </div>
         </div>
