@@ -126,6 +126,10 @@
     gap: 1rem;
 }
 
+.nav__logo img {
+    width: 120px;
+}
+
 .nav__container {
     display: flex;
     justify-content: space-between;
@@ -218,6 +222,10 @@
      .topbar__container {
         display: none;
      }
+
+     .nav__logo img {
+        width: 80px;
+    }
 }
 
 

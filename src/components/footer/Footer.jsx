@@ -1,5 +1,5 @@
 import React from 'react';
-import FooterLogo from "../../assets/icons/qcleaning_logo_2.png";
+import FooterLogo from "../../assets/icons/ASS_cleaning_logo2.png";
 
 import "./footer.css";
 

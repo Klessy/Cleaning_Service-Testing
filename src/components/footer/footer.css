@@ -17,7 +17,7 @@
 }
 
 .footer_logo {
-    width: 12rem;
+    width: 250px;
 }
 
 .footer__p-item-1 {
@@ -146,6 +146,7 @@
 
     .footer_logo {
         margin-inline: auto;
+        width: 180px;
     }
 
     .footer__item-1 {
