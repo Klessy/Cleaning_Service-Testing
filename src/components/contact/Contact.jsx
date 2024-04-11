@@ -5,7 +5,6 @@ import { useEffect } from 'react';
 import { useForm } from "react-hook-form";
 // import { useRef } from 'react';
  
-import AsyncSelect from 'react-select/async';
 
 import Select from 'react-select';
 
