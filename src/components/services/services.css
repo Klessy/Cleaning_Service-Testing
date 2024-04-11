@@ -8,6 +8,7 @@
     display: flex;
     margin: 0 auto;
     justify-content: center;
+    align-items: center;
     gap: 3rem;
     overflow: hidden;
 }
@@ -20,6 +21,39 @@
 .about__our-services h2 {
     color: #fff;
 }
+
+.offers {
+    display: flex;
+    color: #fff;
+    font-size: 2rem;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.offers:hover .offer_number {
+    background: var(--primary);
+    color: #23A036;
+    transition: var(--transition);
+}
+
+.offers:hover h4 {
+    transform: scale(1.1);
+    transition: var(--transition);
+}
+
+.offer_number {
+    font-weight: 700;
+    background-color: #23A036;
+    padding: 8px 20px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+/* .more_service {
+    margin-top: 12px;
+} */
 
 .about__our-services p {
     font-size: 2rem;
@@ -39,7 +73,7 @@
 
 .service-carousel {
     position: relative;
-    width: 255px;
+    /* width: 255px; */
     margin-right: 3rem;
 }
 
@@ -81,45 +115,12 @@
   }
 
   .service-carousel img {
-   object-fit: cover;
     width: 100%;
+    height: 260px;
+    object-fit: cover;
     border-style: none;
     /* overflow: clip; */
   }
-
-  
-  /* .owl-carousel .owl-nav {
-    position: absolute;
-    width: 100%;
-    height: 40px;
-    top: 50%;
-    left: 0;
-    margin-top: -20px;
-    padding: 0 45px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    z-index: 1;
-}
-
-.owl-nav .owl-prev, .owl-nav .owl-next {
-    width: 50px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #23A036;
-    background: #FFC600;
-    border-radius: 40px;
-    font-size: 22px;
-    opacity: .1;
-    transition: .3s;
-}
-
-.owl-carousel:hover .owl-nav .owl-prev,
-.owl-carousel:hover .owl-nav .owl-next {
-  opacity: 1;
-} */
 
 
 
@@ -133,6 +134,10 @@
     .about__our-services {
         flex: 1;
         max-width: 100%;
+    }
+
+    .offers {
+        margin-top: 12px;
     }
 
     .about__our-services .learn__more {

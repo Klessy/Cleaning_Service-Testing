@@ -21,6 +21,14 @@
     width: 58.3333333%;
 }
 
+.item_one a {
+    font-size: 1.7rem;
+}
+
+.item_one a i {
+    font-size: 3rem;
+}
+
 .left {
    padding: 1rem 0; 
    margin-right: 1rem;
@@ -64,6 +72,10 @@
     align-items: center;
 }
 
+.social_handles i {
+    font-size: 2.5rem;
+}
+
 .btn-outline-body {
     color: var(--primary);
 }
@@ -73,8 +85,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 32px;
-    height: 32px;
+    width: 40px;
+    height: 40px;
 }
 
 .me-1 {

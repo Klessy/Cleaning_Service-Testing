@@ -23,8 +23,39 @@ const Services = () => {
         <div className="about__our-services">
           <h5>OUR SERVICES</h5>
           <h2>Awesome Cleaning Services For You</h2>
-          <p>Invidunt lorem justo clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos, ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum</p>
-          <a href="https://github.com/klessy"><button className="learn__more">More Services</button></a>
+          <ul className="what-we_offer">
+            <li className="offers">
+              <span className="offer_number">1</span>
+              <h4>Home and Office cleaning</h4>
+            </li>
+            <li className="offers">
+              <span className="offer_number">2</span>
+              <h4>Hotel and care home cleaning</h4>
+            </li>
+            <li className="offers">
+              <span className="offer_number">3</span>
+              <h4>Facility cleaning</h4>
+            </li>
+            <li className="offers">
+              <span className="offer_number">4</span>
+              <h4>Tank and confined space cleaning</h4>
+            </li>
+            <li className="offers">
+              <span className="offer_number">5</span>
+              <h4>plant, and machinery cleaning</h4>
+            </li>
+            <li className="offers">
+              <span className="offer_number">6</span>
+              <h4>Chimney cleaning</h4>
+            </li>
+            <li className="offers">
+              <span className="offer_number">7</span>
+              <h4>Window cleaning</h4>
+            </li>
+          </ul>
+          {/* <div className="more_service">
+            <a href="#contact"><button className="learn__more">More Services</button></a>
+          </div> */}
         </div>
         <Swiper
              slidesPerView={1}

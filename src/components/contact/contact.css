@@ -127,7 +127,28 @@
     border: 1px solid #e4e4e4;
     outline: 2px solid transparent;
     outline-offset: 2px;
+}
 
+.form__control {
+    padding: 7px 12px;
+    border: 1px solid #e4e4e4;
+    font-size: 15px; 
+}
+
+/* .css-1dimb5e-singleValue {
+    font-size: 14px;
+}
+
+.css-qbdosj-Input {
+    font-size: 14px;
+}
+
+.form__input input {
+    font-size: 14px;
+} */
+
+.form__option {
+    font-size: 18px;
 }
 
 .input-message {

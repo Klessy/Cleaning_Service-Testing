@@ -1,13 +1,16 @@
 import { useEffect } from 'react';
-
 // import AOS from "aos";
 // import "aos/dist/aos.css";
 
 import { useForm } from "react-hook-form";
 // import { useRef } from 'react';
  
+import AsyncSelect from 'react-select/async';
+
+import Select from 'react-select';
 
 import './contact.css';
+
 
 const Contact = () => {
   
@@ -24,11 +27,30 @@ const Contact = () => {
     
   }
 
+
+
   useEffect(() => {
     if(isSubmitSuccessful) {
       reset()
     }
-  }, [isSubmitSuccessful, reset])
+  }, [isSubmitSuccessful, reset]);
+
+  const options = [
+    {value: "1", label: "Home and office cleaning"},
+    {value: "2", label: "Hotels and care homes cleaning"},
+    {value: "3", label: "Facility cleaning"},
+    {value: "4", label: "Tanks and confined space cleaning "},
+    {value: "5", label: "Plant and Machinery"},
+    {value: "6", label: "Chimney cleaning"},
+    {value: "7", label: "Window cleaning"}
+  ]
+
+
+  const formatOptionLabel = ({ value, label, option }) => (
+    <div style={{ display: "flex" }}>
+      <div>{label}</div>
+    </div>
+  );
 
   return (
     <section className="contact__section" id = "contact"  data-aos = "fade-up">
@@ -107,6 +129,32 @@ const Contact = () => {
         <form className="second-col" onSubmit = {handleSubmit(submit)} noValidate>
           <h2>Leave Us Your Info</h2>
           <div className="form-control">
+            <Select options={options} 
+              placeholder="Select your enquiry type"
+              formatOptionLabel={formatOptionLabel}
+              isClearable
+              classNames={{
+                control: () => 'form__control',
+                input: () => 'form__input',
+                option: () => 'form__option',
+            }}
+            theme={(theme) => ({
+              ...theme,
+              borderRadius: 6,
+              colors: {
+                  ...theme.colors,
+                  primary: 'black',
+                  primary25: '#23A036'
+              }
+          })}
+            />
+              {/* <select className="form-select">
+                {options.map(option => (
+                  <option value={option.value}>{option.labels}</option>
+                ))}
+              </select> */}
+          </div>
+          <div className="form-control">
             <input
               className="form-input"
               placeholder="Full Name *"
@@ -144,13 +192,15 @@ const Contact = () => {
             <div className="form-control">
               <input
                 className="form-input"
-                id="date"
-                type="date"
-                {...register("date", {
+                id="phone"
+                type="tel"
+                placeholder="Phone *"
+                {...register("phone", {
                   valueAsDate: true,
                 })}
                 />
             </div>
+
           <div className="form-control">
             <textarea
               placeholder="Comment"
@@ -160,7 +210,7 @@ const Contact = () => {
               {...register("message",{
                 required: {
                   value: true,
-                  message: "Tell us abuot it"
+                  message: "Tell us about it"
                 },
               })}
             ></textarea>

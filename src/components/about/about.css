@@ -33,6 +33,7 @@
     color: var(--dark-green);
     background-color: var(--primary);
     border-radius: var(--radius-2);
+    font-size: 1.7rem;
     font-weight: 600;
     outline: none;
     border: transparent;
