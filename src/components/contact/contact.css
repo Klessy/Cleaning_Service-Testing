@@ -162,6 +162,19 @@
     margin-bottom: 2rem;
 }
 
+/* ===================================== Address ==================================== */
+.address__container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 2rem;
+}
+
+.form-address {
+    border: transparent;
+   border-bottom: 2px solid #e4e4e4;
+}
+
 .form-btn {
     color: var(--dark-green);
     background-color: var(--primary);
@@ -174,6 +187,8 @@
     margin-top: 1.5rem;
     border: transparent;
 }
+
+
 
 @media screen and (max-width: 1000px) {
     .contact__container {
@@ -190,8 +205,14 @@
     .second-col {
         width: 65%;
         display: flex;
+        padding-right: 1.2rem;
+        padding-left: 1.2rem;
         flex-direction: column;
         margin-top: 3.5rem;
+    }
+
+    .address__container {
+        flex-direction: column;
     }
 
 }

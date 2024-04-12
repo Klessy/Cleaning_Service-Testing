@@ -200,6 +200,107 @@ const Contact = () => {
                 />
             </div>
 
+                <p>Address</p>
+                <div className="address__container">
+                  <div className="form-control">
+                    <input
+                      className="form-input form-address"
+                      placeholder="Address 1"
+                      id = "name"
+                      type="text"
+                      {...register("name",{
+                      required: {
+                        value: true,
+                        message: "Where do you stay"
+                      },
+                    })}
+                    ></input>
+                    <p className='err-contact'>{errors.name?.message}</p>
+                  </div>
+                  <div className="form-control">
+                    <input
+                      className="form-input form-address"
+                      placeholder="Address 2"
+                      id = "name"
+                      type="text"
+                      {...register("name",{
+                      required: {
+                        value: true,
+                        message: "Where do you stay"
+                      },
+                    })}
+                    ></input>
+                    <p className='err-contact'>{errors.name?.message}</p>
+                  </div>
+                </div>
+
+                <div className="address__container">
+                  <div className="form-control">
+                    <input
+                      className="form-input form-address"
+                      placeholder="Country"
+                      id = "name"
+                      type="text"
+                      {...register("name",{
+                      required: {
+                        value: true,
+                        message: "Enter Country"
+                      },
+                    })}
+                    ></input>
+                    <p className='err-contact'>{errors.name?.message}</p>
+                  </div>
+                  <div className="form-control">
+                    <input
+                      className="form-input form-address"
+                      placeholder="State"
+                      id = "name"
+                      type="text"
+                      {...register("name",{
+                      required: {
+                        value: true,
+                        message: "Enter State"
+                      },
+                    })}
+                    ></input>
+                    <p className='err-contact'>{errors.name?.message}</p>
+                  </div>
+                </div>
+
+                <div className="address__container">
+                  <div className="form-control">
+                    <input
+                      className="form-input form-address"
+                      placeholder="State Code"
+                      id = "name"
+                      type="text"
+                      {...register("name",{
+                      required: {
+                        value: true,
+                        message: "Enter Country"
+                      },
+                    })}
+                    ></input>
+                    <p className='err-contact'>{errors.name?.message}</p>
+                  </div>
+                  <div className="form-control">
+                    <input
+                      className="form-input form-address"
+                      placeholder="Region"
+                      id = "name"
+                      type="text"
+                      {...register("name",{
+                      required: {
+                        value: true,
+                        message: "Enter State"
+                      },
+                    })}
+                    ></input>
+                    <p className='err-contact'>{errors.name?.message}</p>
+                  </div>
+                </div>
+            
+
           <div className="form-control">
             <textarea
               placeholder="Comment"
