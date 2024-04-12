@@ -51,9 +51,19 @@
 }
 
 @media screen and (max-width: 900px) { 
-    .about__img img {
+
+    .about__img {
         width: 100%;
     }
+
+    .about__img img {
+        /* width: 100%; */
+    }
+
+    .about__us {
+        width: 100%;
+    }
+
     .about__container {
         flex-direction: column;
     }

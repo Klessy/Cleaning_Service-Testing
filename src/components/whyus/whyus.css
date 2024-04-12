@@ -9,8 +9,12 @@
     gap: 3rem;
 }
 
+.whyus__text {
+    width: 55%
+}
+
 .whyus__text p {
-    font-size: 2rem;
+    font-size: 1.7rem;
     margin-bottom: 2.5rem;
     text-align: justify;
     hyphens: auto;
@@ -37,6 +41,10 @@
     color: var(--dark);
 }
 
+.whyus__img-con {
+    width: 45%;
+}
+
 .whyus__img {
     position: relative;
     /* border-radius: 5px; */
@@ -45,6 +53,7 @@
 
 .whyus__img img {
     border-radius: 5px;
+    width: 100%;
 }
 
 
@@ -58,7 +67,11 @@
         flex-direction: column;
     }
 
-    .whyus__img img {
+    .whyus__text {
+        width: 100%
+    }
+
+    .whyus__img-con {
         width: 100%;
     }
 }

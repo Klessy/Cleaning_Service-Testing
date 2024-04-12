@@ -74,7 +74,7 @@
 .service-carousel {
     position: relative;
     /* width: 255px; */
-    margin-right: 3rem;
+    margin-right: 0.5rem;
 }
 
 .service__items {
@@ -116,7 +116,7 @@
 
   .service-carousel img {
     width: 100%;
-    height: 200px;
+    height: 250px;
     object-fit: cover;
     border-style: none;
     /* overflow: clip; */
