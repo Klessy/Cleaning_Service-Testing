@@ -6,20 +6,22 @@
 .about__container {
     padding: 10rem 0;
     display: flex;
-    flex: 1;
     align-items: center;
-    gap: 5rem;
+    gap: 7rem;
 }
 
 .about__img {
-    width: 100%;
-    /* height: 400px; */
+    width: 40%;
 }
 
 .about__img img {
     border-radius: var(--radius-3);
-    width: 100%;
-    object-fit: cover;
+    /* width: 100%;
+    object-fit: cover; */
+}
+
+.about__us {
+    width: 55%;
 }
 
 .about__us p {
